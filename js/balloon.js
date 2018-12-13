@@ -1,24 +1,49 @@
 //TO DO's:
 //Set variables
-//Create balloon objects for comparison
-//Create function for the random balloon generator
+//Create random generator for changing <p> to either "Helium" or "Air"
+//Create function to find a match of balloon size (image) and <p>
 
-var size = {XS, S, M, L, XL};
-var balloon;
-var helium;
-var image1;
-var image2;
-var imagePath;
-//Math.floor(Math.random()*2);
+var rand;
 
 function generateBalloons(){
 
-    rand = Math.floor(Math.random()*5);
+	//Image changes for b1
+		rand = Math.floor(Math.random()*5);
 
-    image1 = new Balloon(size.value(rand), helium);
-    image2 = new Balloon(size.value(rand), helium);
-    //document.getElementById("b1").src 
-    //document.getElementById("b2").src
+		if(rand == 0){
+			document.getElementById("b1").src = "/img/balloon20.jpg";
+		}
+		if(rand == 1){
+			document.getElementById("b1").src = "/img/balloon40.jpg";
+		}
+		if(rand == 2){
+			document.getElementById("b1").src = "/img/balloon60.jpg";
+		}
+		if(rand == 3){
+			document.getElementById("b1").src = "/img/balloon80.jpg";
+		}
+		if(rand == 4){
+			document.getElementById("b1").src = "/img/balloon100.jpg";
+		}
+
+		//Image changes for b2	
+			if(rand == 0){
+				document.getElementById("b2").src = "/img/balloon20.jpg";
+			}
+			if(rand == 1){
+				document.getElementById("b2").src = "/img/balloon40.jpg";
+			}
+			if(rand == 2){
+				document.getElementById("b2").src = "/img/balloon60.jpg";
+			}
+			if(rand == 3){
+				document.getElementById("b2").src = "/img/balloon80.jpg";
+			}
+			if(rand == 4){
+				document.getElementById("b2").src = "/img/balloon100.jpg";
+			}
+
+	/*
 
 }
 
@@ -77,4 +102,6 @@ function toString()
 	function getImagePath() 
 	{ 
 		return imagePath;
+		*/
+
 	}
