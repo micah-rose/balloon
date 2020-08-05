@@ -9,19 +9,19 @@ function generateBalloons() {
 
   switch (rand) {
     case 0:
-      document.getElementById("b1").src = "/img/balloon20.jpg";
+      document.getElementById("b1").src = "img/balloon20.jpg";
       break;
     case 1:
-      document.getElementById("b1").src = "/img/balloon40.jpg";
+      document.getElementById("b1").src = "img/balloon40.jpg";
       break;
     case 2:
-      document.getElementById("b1").src = "/img/balloon60.jpg";
+      document.getElementById("b1").src = "img/balloon60.jpg";
       break;
     case 3:
-      document.getElementById("b1").src = "/img/balloon80.jpg";
+      document.getElementById("b1").src = "img/balloon80.jpg";
       break;
     case 4:
-      document.getElementById("b1").src = "/img/balloon100.jpg";
+      document.getElementById("b1").src = "img/balloon100.jpg";
       break;
   }
   //Text changes for b1
@@ -63,19 +63,19 @@ function generateBalloons() {
 
   switch (rand2) {
     case 0:
-      document.getElementById("b2").src = "/img/balloon20.jpg";
+      document.getElementById("b2").src = "img/balloon20.jpg";
       break;
     case 1:
-      document.getElementById("b2").src = "/img/balloon40.jpg";
+      document.getElementById("b2").src = "img/balloon40.jpg";
       break;
     case 2:
-      document.getElementById("b2").src = "/img/balloon60.jpg";
+      document.getElementById("b2").src = "img/balloon60.jpg";
       break;
     case 3:
-      document.getElementById("b2").src = "/img/balloon80.jpg";
+      document.getElementById("b2").src = "img/balloon80.jpg";
       break;
     case 4:
-      document.getElementById("b2").src = "/img/balloon100.jpg";
+      document.getElementById("b2").src = "img/balloon100.jpg";
       break;
   }
 
