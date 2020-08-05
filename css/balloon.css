@@ -24,7 +24,7 @@ html {
 }
 
 .images {
-  margin-left: 15px;
+  display: inline-block;
 }
 
 .images p {
@@ -34,17 +34,16 @@ html {
 
 .image-1,
 .image-2 {
-  border: solid 2px black;
+  border: solid 3px black;
   width: 250px;
   height: 250px;
   padding: 15px;
-  margin: 10px;
+  margin: 10px auto;
   background-color: white;
 }
 
 .image-1 {
   float: left;
-  margin-top: -1px;
 }
 
 .image-2 {
